@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--cor-paragrafo-3daysLeft-CreationOf: hsl(215, 51%, 70%);
+--cor-0-041ETH: hsl(178, 100%, 50%);
+--cor-Fundo-do-body: hsl(217, 54%, 11%);
+--cor-Fundo-do-card: hsl(216, 50%, 16%);
+--cor-Equilibrium3429-JulesWyvern: hsl(0, 0%, 100%);
+--font-family: "Outfit", serif;
+}
+
+body{
+    background-color: var(--cor-Fundo-do-body);
+    font-family:outfit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+main{
+    background-color: var(--cor-Fundo-do-card);
+    border-radius: 15px;
+    width: 350px;
+    padding: 20px;
+}    
+
+main .logo img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+main .logo h1{
+    font-size: 1.5rem;
+    color: var(--cor-Equilibrium3429-JulesWyvern);
+    margin-bottom: 10px;
+}
+
+main .logo h1:hover{
+    color: var(--cor-0-041ETH);
+    cursor: pointer;
+}
+
+main .logo p{
+    font-size: 1rem;
+    color: var(--cor-paragrafo-3daysLeft-CreationOf);
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+main .alinhamento{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+
+}
+
+main .alinhamento div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+main .alinhamento p{
+    font-size: 0.9;
+    color: var(--cor-paragrafo-3daysLeft-CreationOf);
+}
+
+main .htm{
+    color: var(--cor-0-041ETH)!important;
+}
+
+main .linha{
+    background-color: hsla(215, 52%, 70%, 0.418);
+    width: 100%;
+    height: 0.5px;
+    margin: 20px 0;
+}
+
+main  .criacao {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+main .criacao img{
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+main .criador{
+    font-size: 0.9;
+    color: var(--cor-paragrafo-3daysLeft-CreationOf)
+}
+
+main .criador span{
+    color: var(--cor-Equilibrium3429-JulesWyvern);   
+}
+
+main .criador span:hover{
+    color: var(--cor-0-041ETH);
+    cursor: pointer;
+}
